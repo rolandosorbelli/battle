@@ -3,8 +3,8 @@ require 'shotgun'
 
 
 class Battle < Sinatra::Base
-  get '/battle' do
-    "Hello Battle!"
+  get '/' do
+    "Testing infrastructure working!"
   end
   run! if app_file == $0
 end
