@@ -2,6 +2,7 @@ require_relative './../app'
 
 describe Battle do
 
-  it 'works'
+  it 'works' do
+  end
 
 end
